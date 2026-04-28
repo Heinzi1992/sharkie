@@ -1,0 +1,10 @@
+class PufferFish extends MovableObjekt {
+    width = 80;
+    height = 80;
+
+    constructor() {
+        super().loadImage('../imgs/2.Enemy/1.Puffer fish (3 color options)/1.Swim/3.swim1.png');
+        this.x = 200 + Math.random() * 450;
+        this.y = 50 + Math.random() * 350;
+    }
+}
