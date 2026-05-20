@@ -24,7 +24,7 @@ class World {
     draw() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.moveObjectsToMap(this.backgroundObjects);
-        this.moveOneObjectToMap(this.character)
+        this.moveOneObjectToMap(this.character);
         this.moveObjectsToMap(this.enemies);
         
         requestAnimationFrame(() => this.draw());
